@@ -1,0 +1,39 @@
+.Business {
+  width: 300px;
+  margin: 20px;
+}
+
+.Business img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.Business h2 {
+  margin: 10px 0;
+  font-size: 1.4rem;
+}
+
+.Business-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Business-address p,
+.Business-reviews p,
+.Business-reviews h3 {
+  margin: 4px 0;
+}
+
+.Business-reviews {
+  text-align: right;
+}
+
+.Business-reviews h3 {
+  color: #c28f2c;
+  text-transform: uppercase;
+}
+
+.rating {
+  font-weight: bold;
+}
