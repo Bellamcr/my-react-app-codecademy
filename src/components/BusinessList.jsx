@@ -1,17 +1,16 @@
-import Business from "./Business";
+import Business from './Business';
 
-const businesses = [
-    {}
-];
-
-function BusinessList () {
+function BusinessList({ businesses }) {
 	return (
-		<div>
-            {businesses.map((business, index) => (
-                <Business key={index} />
-            ))};
-        </div>
+		<div className='BusinessList'>
+			{businesses.map((business, index) => (
+				<Business
+					key={index}
+					business={business}
+				/>
+			))}
+		</div>
 	);
 }
 
-export default BusinessList
+export default BusinessList;
